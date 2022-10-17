@@ -30,10 +30,49 @@ p {
     margin-top: 10px;
 }
 
-/*Header*/
+a {
+    text-decoration: none;
+    color: rgb(254,158,0);
+    position: relative;
+    top: 30px;
+    border: 1px;
+    border-radius: 90%;
+    padding: 40px;
+}
+
+/*Header and nav*/
 
 header {
     height: 150px;
+}
+
+#nav-home, #nav-gallery, #nav-visit {
+    height: 110px;
+    width: 110px;
+    background-color: black;
+    border-radius: 50%;
+    margin-top: 12px;
+    text-align: center;
+    border: 4px solid rgb(29,32,34);
+}
+
+#nav-home {
+    float: right;
+    margin-right: 10%;
+}
+
+#nav-gallery {
+    float: right;
+    margin-right: 10%;
+}
+
+#nav-visit {
+    float: right;
+    margin-right: 1%;
+}
+
+#nav-home:hover, #nav-gallery:hover, #nav-visit:hover {
+    border: 4px solid rgb(254,158,0);
 }
 
 /*Banderoll image and logo section*/
@@ -41,7 +80,6 @@ header {
 #banderoll {
     height: 517px;
     width: 100%;
-    border: 5px solid black;
 }
 
 #hero-image {
@@ -90,5 +128,5 @@ header {
 .right-about {
     float: left;
     padding-left: 3%;
-    width: 33%;
+    width: 45%;
 }
