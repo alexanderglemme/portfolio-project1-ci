@@ -58,18 +58,18 @@ header {
 }
 
 .nav-home {
-    float: right;
-    margin-right: 1%;
+    float: left;
+    margin-left: 1%;
 }
 
 .nav-gallery {
-    float: right;
-    margin-right: 1%;
+    float: left;
+    margin-left: 1%;
 }
 
 .nav-visit {
-    float: right;
-    margin-right: 6%;
+    float: left;
+    margin-left: 6%;
 }
 
 .nav-home:hover, .nav-gallery:hover, .nav-visit:hover {
@@ -82,30 +82,29 @@ header {
 
 /*Banderoll image and logo section*/
 
-
 #banderoll {
     height: 517px;
     width: 100%;
-    border-left: 10px solid black;
     border-bottom: 20px solid black
 }
 
 #hero-image {
     background: url(../images/_Musikaliskt-landskap-1-880_cropped.jpg) no-repeat left center;
     height: 517px;
-    width: 60%;
+    width: 52%;
     background-color: black;
-    float: left;
+    float: right;
 }
 
 #logo {
     height: 513px;
-    width: 35%;
-    padding-left: 5%;    
-    float: right;
+    width: 38%;
+    padding-right: 10%; 
+    float: left;
     background-color: black;
     font-size: 100px;
     font-family: Maitree, sans-serif;
+    text-align: right;
     border-top: 4px solid rgb(29,32,34);
 }
 
@@ -126,7 +125,7 @@ header {
     height: 300px;
     width: 300px;
     float: left;
-    margin: 1% 0 0% 4%;
+    margin: 1% 0 0% 1%;
     border: 10px solid rgba(0, 0, 0, 1);
     border-radius: 50%;
 }
@@ -136,11 +135,21 @@ header {
     height: 380px;
     width: 380px;
     float: left;
-    margin-left: 18%;
+    margin-left: 10%;
     margin-top: 1%;
     
     border: 15px solid rgba(0, 0, 0, 1);
     border-radius: 50%;
+}
+
+#about-dagmar-painting {
+    background: url(../images/_Bild-2-680_cropped.jpg) no-repeat center center;
+    height: 272px;
+    width: 272px;
+    float: left;
+    margin: 4% 0 0 6%;
+    border-radius: 50%;
+    border: 7px solid black;
 }
 
 .about-dagmar {
@@ -151,8 +160,8 @@ header {
 .right-about {
     float: right;
     padding: 3%;
-    margin-right: 3%;
-    width: 37%;
+    margin-right: 10%;
+    width: 40%;
     background-color: rgba(0, 0, 0, .2);
     border-radius: 10px;
 }
