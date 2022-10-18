@@ -59,7 +59,7 @@ header {
 
 .nav-home {
     float: left;
-    margin-left: 1%;
+    margin-left: 6%;
 }
 
 .nav-gallery {
@@ -69,7 +69,7 @@ header {
 
 .nav-visit {
     float: left;
-    margin-left: 6%;
+    margin-left: 1%;
 }
 
 .nav-home:hover, .nav-gallery:hover, .nav-visit:hover {
@@ -195,4 +195,21 @@ footer {
 
 #facebook:hover, #instagram:hover {
     border: 4px solid rgb(254,158,0);
+}
+
+/* gallery */
+
+#photo-wall {
+    clear: both;
+    line-height: 0;
+    column-count: 3;
+    column-gap: 0;
+}
+
+#photo-wall > img {
+    width: 100%;
+}
+
+.gallery-bg {
+    background-color: rgb(25,25,25);
 }
