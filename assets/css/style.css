@@ -40,6 +40,12 @@ a {
     padding: 40px;
 }
 
+.text-container {
+    padding: 3%;
+    background-color: rgba(0, 0, 0, .2);
+    border-radius: 10px;
+}
+
 /* Header and nav */
 
 header {
@@ -159,11 +165,8 @@ header {
 
 .right-about {
     float: right;
-    padding: 3%;
     margin-right: 10%;
     width: 40%;
-    background-color: rgba(0, 0, 0, .2);
-    border-radius: 10px;
 }
 
 /* Footer section */
@@ -212,4 +215,34 @@ footer {
 
 .gallery-bg {
     background-color: rgb(25,25,25);
+}
+
+/* Visit Dagmar page */
+
+#visit-dagmar-section {
+    height: 1500px;
+}
+
+#contact {
+    width: 300px;
+    float: right;
+    margin: 5% 12% 0 0;
+}
+
+#about-dgac {
+    width: 500px;
+    margin: 5% 0 0 5%;
+    float: left;
+}
+
+#dgac-photo {
+    background: url(../images/dgac_galleri.jpg) no-repeat center center;
+    height: 500px;
+    width: 500px;
+}
+
+#about-visit {
+    width: 500px;
+    float: right;
+    margin: 30px 5% 0 0;
 }
