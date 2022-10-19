@@ -324,6 +324,10 @@ iframe {
     #instagram {
         float: left;
     }
+
+    #photo-wall {
+        columns: 2;
+    }
 }
 
 @media screen and (max-width: 884px) {
@@ -480,6 +484,10 @@ iframe {
 
     #instagram {
         margin-right: 0;
+    }
+
+    #photo-wall {
+        columns: 1;
     }
 }
 
