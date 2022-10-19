@@ -475,12 +475,6 @@ iframe {
 
 @media screen and (max-width: 445px) {
     #about-dagmar {
-        height: 2200px;
-    }
-}
-
-@media screen and (max-width: 445px) {
-    #about-dagmar {
         height: 2400px;
     }
 
@@ -489,7 +483,7 @@ iframe {
     }
 }
 
-@media screen and (max-width: 559px) {
+@media screen and (max-width: 359px) {
     #about-dagmar {
         height: 2700px;
     }
