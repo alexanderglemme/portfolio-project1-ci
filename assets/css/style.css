@@ -301,38 +301,42 @@ iframe {
 }
 
 @media screen and (max-width: 1077px) {
-    #dagmar-profile-picture, #about-dagmar-glass-1 {
+
+    #dagmar-profile-picture,
+    #about-dagmar-glass-1 {
         margin-left: 4%;
-        
+
     }
 
-     #about-dagmar-glass-1 {
-         margin-top: 10%;
-     }
+    #about-dagmar-glass-1 {
+        margin-top: 10%;
+    }
 
     #about-dagmar {
-        heigt: 2000px
+        height: 2000px
     }
 
     #facebook {
         float: left;
-    margin-left: 30%;
-}
+        margin-left: 30%;
+    }
 
-#instagram {
+    #instagram {
         float: left;
-}
+    }
 }
 
 @media screen and (max-width: 884px) {
-    #dagmar-profile-picture, #about-dagmar-glass-1 {
+
+    #dagmar-profile-picture,
+    #about-dagmar-glass-1 {
         margin-left: 1%;
-        
+
     }
 
     #about-dagmar-glass-1 {
-         margin-top: 1%;
-     }
+        margin-top: 1%;
+    }
 
     #about-dagmar-painting {
         margin-left: 18%;
@@ -344,40 +348,40 @@ iframe {
     #about-dagmar {
         height: 2200px
     }
-    
+
     #dagmar-profile-picture {
-    background: url("../images/about-dagmar-picture-cropped.jpg") no-repeat center center;
-    height: 400px;
-    width: 400px;
-    
-    margin-left: 22%;
-    margin-bottom: 50px;
-    border: 20px solid rgba(0, 0, 0, 1);
-    border-radius: 50%;
-}
+        background: url("../images/about-dagmar-picture-cropped.jpg") no-repeat center center;
+        height: 400px;
+        width: 400px;
+
+        margin-left: 22%;
+        margin-bottom: 50px;
+        border: 20px solid rgba(0, 0, 0, 1);
+        border-radius: 50%;
+    }
 
     .right-about {
-    margin-right: 2%;
-    margin-bottom: 50px;
-    width: 90%;
-}
+        margin-right: 2%;
+        margin-bottom: 50px;
+        width: 90%;
+    }
 
     #about-dagmar-painting {
         margin-left: 1%;
         margin-top: 1px;
-        
+
     }
-    
+
     #about-dagmar-glass-1 {
-         margin-top: 15%;
+        margin-top: 15%;
         margin-left: 4%
-     }
+    }
 
     /* exchange urls with glass and painting */
 
     #about-dagmar-glass {
-    display: none;
-}
+        display: none;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -388,18 +392,18 @@ iframe {
         text-align: center;
         float: none;
     }
-    
+
     #hero-image {
         width: 500px;
         height: 500px;
-        background-color: rgb(29,32,34);
+        background-color: rgb(29, 32, 34);
         border: 10px solid black;
-        border-radius: 10px; 
+        border-radius: 10px;
         float: none;
         margin: 10% auto;
         padding: 1% 10%;
     }
-    
+
     #banderoll {
         height: 1150px;
         border-bottom: none;
@@ -421,7 +425,7 @@ iframe {
 }
 
 @media screen and (max-width: 732px) {
-    
+
     #about-dagmar-glass-1 {
         display: none;
     }
@@ -461,9 +465,9 @@ iframe {
     }
 
     #dagmar-profile-picture {
-       height: 400px;
-       width: auto;
-       border-radius: 10px;
+        height: 400px;
+        width: auto;
+        border-radius: 10px;
         border: 10px solid black;
         margin: 0 3%;
     }
@@ -489,7 +493,7 @@ iframe {
     #about-dagmar {
         height: 2700px;
     }
-    
+
     #logo {
         border: unset;
     }
