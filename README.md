@@ -1,1 +1,10 @@
-* Dagmar Glemme Art
+# Dagmar Glemme Art
+The main goals of this website is to (1) provide an introduction to the artistry of the great artist and sculpter Dagmar Glemme, (2) provide information about the artists whereabouts and main place of business and (3) encourage potential costomers to reach out to the artist.
+
+The targeted audience for this website are people who in one way or form might have seen or heard about an artpiece of Dagmars and wants to know more about the artist and her artistry. It is like a CV in the sense that it is aimed to leave the user with a clear understanding of what type of artist Dagmar is and also give an approximate taste of how she expresses her ideas in different types of materials. The ways it differs from a CV is first and foremost the format in such that the target audience aren't employers/recruiters, but potential costumers. This leaves room for longer format text and a more playfull approach to the layout. The artist herself has even encouraged me to "code in a playfull manner", formalia is therefore secondary.
+
+In both the clients and in my opinon the usefulness of the website is broad. It can be used for areas such as marketing the artist towards both private and corporate art byers, or even as a resource for journalists or gallerists writing about Dagmar Glemme.
+
+
+
+# Features
