@@ -243,6 +243,7 @@ footer {
 }
 
 #dgac-photo {
+    background: url(../images/dgac-galleri.jpg);
     width: 100%;
     height: 443px;
     border-radius: 10px;
@@ -467,7 +468,6 @@ iframe {
     }
 
     #dgac-photo {
-        background: url(../images/dgac_galleri.jpg) no-repeat center center;
         width: auto;
         height: 443px;
         border-radius: 10px;
