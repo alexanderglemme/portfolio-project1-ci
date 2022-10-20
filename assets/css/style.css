@@ -64,20 +64,19 @@ header {
     margin-top: 12px;
     text-align: center;
     border: 4px solid rgb(29, 32, 34);
+    float: left;
+    font-size: 30px;
 }
 
 .nav-home {
-    float: left;
     margin-left: 6%;
 }
 
 .nav-gallery {
-    float: left;
     margin-left: 1%;
 }
 
 .nav-visit {
-    float: left;
     margin-left: 1%;
 }
 
@@ -190,16 +189,13 @@ footer {
     margin-top: 20px;
     text-align: center;
     border: 4px solid rgb(29, 32, 34);
+    font-size: 30px;
+    float: left;
+    margin-left: 1%;
 }
 
 #facebook {
-    float: left;
     margin-left: 38%;
-}
-
-#instagram {
-    float: right;
-    margin-right: 38%;
 }
 
 #facebook:hover,
@@ -277,14 +273,15 @@ iframe {
 
 @media screen and (max-width: 1230px) {
     .right-about {
-        float: right;
         margin-right: 1%;
-        width: 40%;
     }
 
     #about-dagmar {
-        margin-top: 50px;
         height: 1800px;
+    }
+
+    #visit-dagmar-section {
+        height: 2000px;
     }
 }
 
@@ -294,9 +291,11 @@ iframe {
     }
 
     .right-about {
-        float: right;
         margin-right: 1px;
-        width: 40%;
+    }
+
+    #visit-dagmar-section {
+        height: 2200px;
     }
 }
 
@@ -354,14 +353,8 @@ iframe {
     }
 
     #dagmar-profile-picture {
-        background: url("../images/about-dagmar-picture-cropped.jpg") no-repeat center center;
-        height: 400px;
-        width: 400px;
-
         margin-left: 22%;
         margin-bottom: 50px;
-        border: 20px solid rgba(0, 0, 0, 1);
-        border-radius: 50%;
     }
 
     .right-about {
@@ -380,8 +373,6 @@ iframe {
         margin-top: 15%;
         margin-left: 4%
     }
-
-    /* exchange urls with glass and painting */
 
     #about-dagmar-glass {
         display: none;
@@ -453,6 +444,25 @@ iframe {
     #hero-image {
         padding: 0;
     }
+
+     /* visit dagmar page */
+
+    #visit-dagmar-section {
+        height: 2000px;
+    }
+
+    #about-dgac, #about-visit, #contact {
+        float: none;
+        margin: 2% auto;
+        width: auto;
+    }
+
+    #dgac-photo {
+    background: url(../images/dgac_galleri.jpg) no-repeat center center;
+    width: auto;
+    height: 443px;
+    border-radius: 10px;
+}
 }
 
 @media screen and (max-width: 520px) {
@@ -475,6 +485,11 @@ iframe {
         border: 10px solid black;
         margin: 0 3%;
     }
+
+    #visit-dagmar-section {
+        height: 2500px;
+    }
+
 }
 
 @media screen and (max-width: 445px) {
@@ -489,14 +504,37 @@ iframe {
     #photo-wall {
         columns: 1;
     }
+
 }
 
-@media screen and (max-width: 359px) {
+@media screen and (max-width: 361px) {
+    header {
+        height: 280px;
+    }
+    
     #about-dagmar {
         height: 2700px;
     }
 
     #logo {
         border: unset;
+    }
+
+    #visit-dagmar-section {
+        height: 2700px;
+    }
+}
+
+@media screen and (max-width: 292px) {
+    #about-dagmar {
+        height: 2900px;
+    }
+
+    #logo {
+        font-size: 60px;
+    }
+
+    #visit-dagmar-section {
+        height: 2900px;
     }
 }
