@@ -99,7 +99,7 @@ header {
 }
 
 #hero-image {
-    background: url(../images/_Musikaliskt-landskap-1-880_cropped.jpg) no-repeat left center;
+    background: url("/assets/images/_Musikaliskt-landskap-1-880_cropped.jpg") no-repeat left center;
     height: 517px;
     width: 52%;
     background-color: black;
@@ -121,7 +121,7 @@ header {
 /* About dagmar section */
 
 #dagmar-profile-picture {
-    background: url("../images/about-dagmar-picture-cropped.jpg") no-repeat center center;
+    background: url("/assets/images/about-dagmar-picture-cropped.jpg") no-repeat center center;
     height: 400px;
     width: 400px;
     float: left;
@@ -131,7 +131,7 @@ header {
 }
 
 #about-dagmar-glass {
-    background: url(../images/_Glasskulptur_Lejon_och_fagel_1_750.jpg) no-repeat center center;
+    background: url("/assets/images/_Glasskulptur_Lejon_och_fagel_1_750.jpg") no-repeat center center;
     height: 300px;
     width: 300px;
     float: left;
@@ -141,7 +141,7 @@ header {
 }
 
 #about-dagmar-glass-1 {
-    background: url(../images/_Glasskulptur_med_instrument_1_750.jpg) no-repeat center center;
+    background: url("/assets/images/_Glasskulptur_med_instrument_1_750.jpg") no-repeat center center;
     height: 380px;
     width: 380px;
     float: left;
@@ -153,7 +153,7 @@ header {
 }
 
 #about-dagmar-painting {
-    background: url(../images/_Bild-2-680_cropped.jpg) no-repeat center center;
+    background: url("/assets/images/_Bild-2-680_cropped.jpg") no-repeat center center;
     height: 272px;
     width: 272px;
     float: left;
