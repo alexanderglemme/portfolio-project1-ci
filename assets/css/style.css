@@ -238,9 +238,13 @@ footer {
     float: left;
 }
 
+#about-dgac h1 {
+    font-size: 40px;
+}
+
 #dgac-photo {
     background: url(../images/dgac_galleri.jpg) no-repeat center center;
-    width: 443px;
+    width: 100%;
     height: 443px;
     border-radius: 10px;
 }
@@ -311,10 +315,6 @@ iframe {
         margin-top: 10%;
     }
 
-    #about-dagmar {
-        height: 2000px
-    }
-
     #facebook {
         float: left;
         margin-left: 30%;
@@ -326,6 +326,10 @@ iframe {
 
     #photo-wall {
         columns: 2;
+    }
+
+    #visit-dagmar-section {
+        height: 2500px;
     }
 }
 
@@ -445,24 +449,30 @@ iframe {
         padding: 0;
     }
 
-     /* visit dagmar page */
-
-    #visit-dagmar-section {
+    #about-dagmar {
         height: 2000px;
     }
 
-    #about-dgac, #about-visit, #contact {
+    /* visit dagmar page */
+
+    #visit-dagmar-section {
+        height: 2300px;
+    }
+
+    #about-dgac,
+    #about-visit,
+    #contact {
         float: none;
         margin: 2% auto;
         width: auto;
     }
 
     #dgac-photo {
-    background: url(../images/dgac_galleri.jpg) no-repeat center center;
-    width: auto;
-    height: 443px;
-    border-radius: 10px;
-}
+        background: url(../images/dgac_galleri.jpg) no-repeat center center;
+        width: auto;
+        height: 443px;
+        border-radius: 10px;
+    }
 }
 
 @media screen and (max-width: 520px) {
@@ -505,13 +515,17 @@ iframe {
         columns: 1;
     }
 
+    #visit-dagmar-section {
+        height: 2700px;
+    }
+
 }
 
 @media screen and (max-width: 361px) {
     header {
         height: 280px;
     }
-    
+
     #about-dagmar {
         height: 2700px;
     }
@@ -521,7 +535,7 @@ iframe {
     }
 
     #visit-dagmar-section {
-        height: 2700px;
+        height: 2900px;
     }
 }
 
@@ -535,6 +549,6 @@ iframe {
     }
 
     #visit-dagmar-section {
-        height: 2900px;
+        height: 3400px;
     }
 }
