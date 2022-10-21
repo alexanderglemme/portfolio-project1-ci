@@ -86,6 +86,8 @@ There are no unfixed bugs that I am aware of at this point in time.
 
 # Deployment
 - The site was deployed to Github pages via the repository settings.
+### After initial deployment
+After deploying the site to github pages I have had to take it down several times and redeploy it as I was troubleshooting for bugs. I have therefore altered code after the initial deployment. This should all be commited in my repo.
 
 # Credits
 ## Content
@@ -112,3 +114,7 @@ There are no unfixed bugs that I am aware of at this point in time.
 
 ## Media
 - All images were handed to me by Dagmar Glemme.
+
+### Minor disclaimer regarding my github commits
+1. The commits where large chunks of code appear to have been pasted in are chunks that I have written in the devtools and then pasted back into the source code. I am new to coding and don't know if this is standard proceedure or not.
+2. The commits and commit messages can sometimes seem unclear, sometimes insufficient and sometimes over encumbered with actions. This is a result of me tinkering in the source code instead of in the devtools, resulting in many small saves and changes. Forgive me for any inconvenience regarding this.
