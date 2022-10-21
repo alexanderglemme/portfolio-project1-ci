@@ -37,7 +37,9 @@ p {
     margin-top: 10px;
 }
 
-a {
+.nav-home a,
+.nav-gallery a,
+.nav-visit a {
     text-decoration: none;
     color: rgb(254, 158, 0);
     position: relative;
