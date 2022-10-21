@@ -84,6 +84,9 @@ While this fixed the phone number problem, the instagram and facebook anchors al
 ## Unfixed bugs
 There are no unfixed bugs that I am aware of at this point in time.
 
+# Deployment
+- The site was deployed to Github pages via the repository settings.
+
 # Credits
 ## Content
 ### Icons
