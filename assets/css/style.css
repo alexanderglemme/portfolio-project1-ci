@@ -259,6 +259,10 @@ footer {
     margin: 5% 12% 0 0;
 }
 
+#contact h1 {
+    font-size: 30px;
+}
+
 #about-dgac {
     width: 517px;
     margin: 5% 0 0 5%;
