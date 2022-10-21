@@ -8,3 +8,4 @@ In both the clients and in my opinon the usefulness of the website is broad. It 
 
 
 # Features
+In the top left the user will see a navbar with big buttons with fontawesome icons in them to indicate the different pages of the website. The circles around the icons respond with a color change when hovered on, and also activates when clicked to indicate where the user currently is on the website. The size of the buttons are however not responsive. This is a feature that was requested by the client to make it easy for people with impaired vision to easily be able to navigate through the page, despite screensize.![Am I Responsive_ - Google Chrome 2022-10-21 10_12_39](https://user-images.githubusercontent.com/113175237/197149928-0cbc6bca-989f-4751-a7d7-cffd2e1144c0.png)
