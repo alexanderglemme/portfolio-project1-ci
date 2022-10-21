@@ -54,7 +54,7 @@ a {
 }
 
 .text-container a {
-    text-decoration: none;
+    text-decoration: inherit;
     margin: 0;
     padding: 0;
     top: 0;
