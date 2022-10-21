@@ -9,11 +9,13 @@ body {
     font-family: 'Martel sans', sans-serif;
     color: rgb(254, 158, 0);
     background-color: rgb(29, 32, 34);
+    -ms-overflow-style: none;
+    scrollbar-width: none;
 }
 
 body::-webkit-scrollbar {
     display: none;
-  }
+}
 
 h1,
 h2 {
