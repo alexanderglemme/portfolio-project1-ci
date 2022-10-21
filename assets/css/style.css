@@ -53,7 +53,7 @@ a {
     border-radius: 10px;
 }
 
-.text-container>a {
+.text-container a {
     text-decoration: none;
     margin: 0;
     padding: 0;
@@ -213,6 +213,16 @@ footer {
 
 #facebook {
     margin-left: 38%;
+}
+
+#facebook a, #instagram a {
+    text-decoration: none;
+    color: rgb(254, 158, 0);
+    position: relative;
+    top: 30px;
+    border: 1px;
+    border-radius: 90%;
+    padding: 40px;
 }
 
 #facebook:hover,
