@@ -11,6 +11,10 @@ body {
     background-color: rgb(29, 32, 34);
 }
 
+body::-webkit-scrollbar {
+    display: none;
+  }
+
 h1,
 h2 {
     font-family: Maitree, sans-serif;
