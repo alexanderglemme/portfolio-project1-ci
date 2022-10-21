@@ -37,9 +37,7 @@ p {
     margin-top: 10px;
 }
 
-.nav-home a,
-.nav-gallery a,
-.nav-visit a {
+a {
     text-decoration: none;
     color: rgb(254, 158, 0);
     position: relative;
@@ -53,6 +51,17 @@ p {
     padding: 3%;
     background-color: rgba(0, 0, 0, .2);
     border-radius: 10px;
+}
+
+.text-container a {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    position: unset;
+    border: 0px;
+    border-radius: 0%;
+
 }
 
 /* Header and nav */
