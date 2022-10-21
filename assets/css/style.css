@@ -281,7 +281,7 @@ iframe {
     }
 }
 
-@media screen and (max-width: 1230px) {
+@media screen and (max-width: 1281px) {
     .right-about {
         margin-right: 1%;
     }
@@ -293,6 +293,15 @@ iframe {
     #visit-dagmar-section {
         height: 2000px;
     }
+
+    #about-dgac,
+    #about-visit {
+        margin: 2%;
+    }
+    #about-dgac {
+        margin-top: 10%
+    }
+
 }
 
 @media screen and (max-width: 1153px) {
